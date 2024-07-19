@@ -1,0 +1,138 @@
+*{
+    font-family: roboto !important;
+    line-height: 1.7em !important;
+}
+body{
+    background-color: #ABB5C1;
+}
+.contact-container{
+    background-color: cadetblue;
+}
+.form-text span{
+    color: #495057;
+    margin-bottom: 40px;
+    display: block;
+}
+.form-text h2{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.input-con label{
+    color: #6c757d;
+    margin-top: 20px;
+    display: block;
+    font-size: 13px;
+    
+}
+.input-con input{
+    width: 100%;
+    border: solid 1px #ced4da;
+    padding: 8px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1000px;
+    margin: 150px auto;
+    border-radius: 8px;
+    border: solid 1px #F3F5F9;
+    align-items: stretch;
+    background-color: white;
+}
+
+.button-sub input{
+    width: 100%;
+    border: none;
+    background-color: #3c37ff;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.buttom-text{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.right-sec{
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-sec{
+    width: 50%;
+    background-color: #F3F5F9;
+    margin: 15px;
+    padding: 25px;
+    
+}
+
+.buttom-text span{
+    color: #3c37ff;
+    font-weight: 600;
+}
+
+.top-left-text h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.top-left-text p{
+    color: #495057;
+}
+
+.card-text{
+    background-color: #2D3345;
+    padding: 25px 15px;
+    border-radius: 8px;
+    font-weight: 300;
+    margin-top: 100px;
+    
+}
+.card-text p{
+    color: white;
+    font-size: 17px;
+    
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 25px;
+}
+
+.dots .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #CCD0D5;
+    border-radius: 50%;
+}
+.firstdot{
+    background-color: #2F4697 !important;
+}
+
+.circle{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border: solid 10px #3C37FE;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+.button-sub input{
+    transition: all ease 0.5s;
+}
+.button-sub input:hover{
+    transform: scale(1.05);
+    
+}
